@@ -1,0 +1,219 @@
+     body{
+        font-family: cursive;
+        font-size:15px;
+        line-height:1.5;
+        padding:0;
+        margin:0;
+        background-color:#f4f4f4;
+     }
+
+     /* Globle */
+     .container{
+        width:80%;
+        margin:auto;
+        overflow:hidden;
+     }
+
+       ul{
+        margin:0;
+        padding:0;
+     }
+
+     .button_1{
+        height:38px;
+        background:#e8491d;
+        border:0;
+        padding-left:20px;
+        padding-right:20px;
+        color:#ffffff;
+     }
+
+     /*Header*/
+     header{
+        background:#35424a;
+        color:#ffffff;
+        padding-top:30px;
+        min-height:70px;
+        border-bottom:#e8491d 3px solid;
+     }
+
+     header a{
+        color:#ffffff;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size:16px;
+     }
+
+     header li{
+        float:left;
+        display:inline;
+        padding: 0 20px 0 20px;
+     }
+
+     header #branding{
+        float:left;
+     }
+
+     header #branding h1{
+        margin:0;
+     }
+
+     header nav{
+        float:right;
+        margin-top:10px;
+     }
+
+     header .highlight, header .current a{
+        color:#e8491d;
+        font-weight:bold;
+     }
+
+     header a:hover{
+        color:#cccccc;
+        font-weight:bold;
+     }
+ 
+     /* showcase */
+     #showcase{
+        min-height: 400px;
+        background:url('Sun-artwork-digital.png') no-repeat 0 -400px;
+        text-align: center;
+        color: #ffffff;
+     }
+
+     #showcase h1{
+        margin-top: 100px;
+        font-size: 55px;
+        margin-bottom:10px;
+     }
+
+     #showcase p{
+        font-size:20px;
+     }
+
+     #newsletter{
+        padding:15px;
+        color:#ffffff;
+        background:#35424a;   
+     }
+
+     #newsletter h1{
+        float: right;
+        margin-top:15px;
+     }
+
+     #newsletter input[type="email"]{
+        padding:4px;
+        height:25px;
+        width:250px;
+     }
+
+        .box{
+         width: 500px;
+         height: 500px;
+         display: inline-block;
+         text-align: center;
+        }
+
+     footer{
+        padding:20px;
+        margin-top: 20px;
+        color: #ffffff;
+        background-color: #e8491d;
+        text-align: center;
+     }
+
+
+/* ABOUT US*/
+.a1{
+   width: 100%;
+   height: 750px;
+   display: flex;
+}
+
+
+.b1{
+  width: 90%;
+  height: 750px;
+  
+}
+
+.b2{
+   width: 60%;
+  height: 750px;
+   
+  
+}
+
+.box1{
+   width: 100%;
+   height: 300px;
+   padding:  40px 40px 40px 5px;
+}
+
+.box2{
+    width: 100%;
+   height: 300px;
+   padding: 20px 20px 20px 5px;
+   color:azure;
+   background-color: #35424a;
+}
+
+.box3{
+   width: 60%;
+   height: 40%;
+   margin: 50px;
+   padding: 30px;
+   color:white;
+   background-color: #35424a;
+}
+
+/*SERVICE*/    
+
+.s1{
+   width: 100%;
+   height: 700px;
+   display: flex;
+}
+
+
+.s2{
+  width: 100%;
+  height: 750px;
+  
+}
+
+.s3{
+   width: 80%;
+  height: 750px;
+  
+  
+}
+
+.s4{
+   width:auto;
+   height: 150px;
+   margin:10px;
+   padding: 25px;
+   background-color: rgba(212, 195, 195, 0.815);
+}
+
+.s5{
+   width: 500px;
+   height: 450px;
+   margin: 50px;
+   padding: 20px;
+   color: white;
+   background-color: #2a3338;
+}
+
+.mid{
+   width: 100%;
+   height: 70px;
+   padding: 10px;
+   background-color: #35424a;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+    
